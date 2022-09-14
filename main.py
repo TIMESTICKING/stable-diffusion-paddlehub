@@ -1,7 +1,7 @@
 import paddlehub as hub
 
 module = hub.Module(name="stable_diffusion")
-text_prompts = ["in the morning light,Overlooking TOKYO city by greg rutkowski and thomas kinkade,Trending on artstation."]
+text_prompts = ["In a rainy, cloudy day, the wind is strong, a man with cope standing in the desert."]
 # 生成图像, 默认会在stable_diffusion_out目录保存图像
 # 返回的da是一个DocumentArray对象，保存了所有的结果，包括最终结果和迭代过程的中间结果
 # 可以通过操作DocumentArray对象对生成的图像做后处理，保存或者分析
